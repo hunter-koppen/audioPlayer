@@ -18,7 +18,6 @@ export class H5AudioPlayer extends Component {
             }
         } else if (file && file.status === "available") {
             if (this.state.filepath !== file.value.uri) {
-                console.log(file.value.uri);
                 this.setState({
                     filepath: file.value.uri
                 });
@@ -27,6 +26,6 @@ export class H5AudioPlayer extends Component {
     }
 
     render() {
-        return <AudioPlayer autoPlay src={this.state.filepath} />;
+        return <AudioPlayer autoPlay={this.props.autoPlay} loop={this.props.loop} src={this.state.filepath} />;
     }
 }
