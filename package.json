@@ -28,7 +28,6 @@
     "@mendix/pluggable-widgets-tools": "^9.0.0"
   },
   "dependencies": {
-    "classnames": "^2.2.6",
-    "react-h5-audio-player": "^3.8.4"
+    "classnames": "^2.2.6"
   }
 }
