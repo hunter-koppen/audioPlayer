@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<widget id="clevr.audioplayer.AudioPlayer" pluginWidget="true" needsEntityContext="true" offlineCapable="true" supportedPlatform="Web"
+    xmlns="http://www.mendix.com/widget/1.0/"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mendix.com/widget/1.0/ ../node_modules/mendix/custom_widget.xsd">
+    <name>Audio Player</name>
+    <description/>
+    <icon/>
+    <properties>
+        <propertyGroup caption="General">
+            <property key="file" type="file" required="false">
+                <caption>File</caption>
+                <description>File document which contains a valid audio file (can be empty if providing the audio via URL)</description>
+            </property>
+            <property key="url" type="string" required="false">
+                <caption>URL</caption>
+                <description>Url to the audio file you wish to play (can be empty if providing a file document)</description>
+            </property>
+        </propertyGroup>
+    </properties>
+</widget>
