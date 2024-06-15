@@ -2,8 +2,8 @@
   "name": "audioplayer",
   "widgetName": "AudioPlayer",
   "version": "1.0.0",
-  "description": "My widget description",
-  "copyright": "CLEVR NL B.V. 2022",
+  "description": "Widget that can play audio files",
+  "copyright": "Kobeon B.V. 2024",
   "author": "Hunter Koppen",
   "engines": {
     "node": ">=12"
@@ -14,7 +14,7 @@
     "mendixHost": "http://localhost:8080",
     "developmentPort": 3000
   },
-  "packagePath": "clevr",
+  "packagePath": "kobeon",
   "scripts": {
     "start": "pluggable-widgets-tools start:server",
     "dev": "pluggable-widgets-tools start:web",
@@ -25,10 +25,10 @@
     "release": "pluggable-widgets-tools release:web"
   },
   "devDependencies": {
-    "@mendix/pluggable-widgets-tools": "^9.0.0"
+    "@mendix/pluggable-widgets-tools": "^10.7.2"
   },
   "dependencies": {
     "classnames": "^2.2.6",
-    "react-h5-audio-player": "^3.8.4"
+    "react-h5-audio-player": "^3.9.1"
   }
 }

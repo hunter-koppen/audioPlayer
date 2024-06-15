@@ -5,7 +5,7 @@
             <widgetFile path="AudioPlayer.xml"/>
         </widgetFiles>
         <files>
-            <file path="clevr/audioplayer"/>
+            <file path="kobeon/audioplayer"/>
         </files>
     </clientModule>
 </package>
