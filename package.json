@@ -1,7 +1,7 @@
 {
   "name": "audioplayer",
   "widgetName": "AudioPlayer",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Widget that can play audio files",
   "copyright": "Kobeon B.V. 2024",
   "author": "Hunter Koppen",

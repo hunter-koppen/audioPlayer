@@ -26,6 +26,13 @@ export class H5AudioPlayer extends Component {
     }
 
     render() {
-        return <AudioPlayer autoPlay={this.props.autoPlay} loop={this.props.loop} src={this.state.filepath} />;
+        return (
+            <AudioPlayer
+                autoPlay={this.props.autoPlay}
+                autoPlayAfterSrcChange={false}
+                loop={this.props.loop}
+                src={this.state.filepath}
+            />
+        );
     }
 }
